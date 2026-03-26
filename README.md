@@ -126,7 +126,7 @@ After creating database, run SQL queries to create tables or import tables using
 
 ▶️ How to Run Project
 Step 1: Clone Repository
-git clone https://github.com/yourusername/plant-project.git
+git clone https://github.com/yukta0708/Nursery-Website.git
 
 OR download ZIP.
 
