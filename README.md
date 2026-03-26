@@ -176,10 +176,4 @@ password = yourpassword
 
 ## Step 5: Run in Browser
 
-Open browser and run:
-
-```
-http://localhost:8080/plant-project
-```
-http://localhost:8080/plant-project
-
+Open browser and run
