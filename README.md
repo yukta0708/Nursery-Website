@@ -53,23 +53,29 @@ MySQL Workbench
 Maven
 Web Browser (Chrome / Edge)
 📂 Project Structure (Maven)
+# 📂 Project Structure (Maven)
+
+```
 plant-project
 │
-├── src/main/java
-│   ├── com.user.servlet
-│   ├── com.entity
-│   ├── com.DAO
-│   └── com.DB
-│
-├── src/main/webapp
-│   ├── jsp pages
-│   ├── css
-│   ├── js
-│   ├── images
-│   └── WEB-INF
+├── src
+│   └── main
+│       ├── java
+│       │   ├── com.user.servlet
+│       │   ├── com.entity
+│       │   ├── com.DAO
+│       │   └── com.DB
+│       │
+│       └── webapp
+│           ├── jsp pages
+│           ├── css
+│           ├── js
+│           ├── images
+│           └── WEB-INF
 │
 ├── pom.xml
 └── README.md
+```
 🗄 Database Structure
 
 Create database in MySQL:
