@@ -65,7 +65,7 @@ Make sure the following software is installed:
 - MySQL Workbench
 - Maven
 - Web Browser (Chrome / Edge)
-- 
+  
 # 📂 Project Structure (Maven)
 
 ```
