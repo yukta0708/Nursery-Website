@@ -6,53 +6,66 @@ The system provides product listing, search functionality, shopping cart, order 
 
 This project demonstrates practical implementation of Java web development, MVC architecture, CRUD operations, and JDBC database connectivity.
 
-🚀 Features
-User Module
-User Registration and Login
-Browse plant products
-Search plants
-View plant details
-Add to Cart
-Place Order
-View order details
-Update profile
-Contact / send message
-Admin Module
-Add new plant product
-Update plant details
-Delete product
-Manage orders
-Manage users
-View messages
-🛠 Technologies Used
-Backend
-Java Servlet
-JSP (Java Server Pages)
-JDBC
-Maven
-Frontend
-HTML
-CSS
-Bootstrap
-JavaScript
-Database
-MySQL
-Server
-Apache Tomcat 9 or 10
-IDE
-Eclipse IDE
-⚙️ Prerequisites / Requirements
+# 🚀 Features
+
+## User Module
+- User Registration and Login
+- Browse plant products
+- Search plants
+- View plant details
+- Add to Cart
+- Place Order
+- View order details
+- Update profile
+- Contact / send message
+
+## Admin Module
+- Add new plant product
+- Update plant details
+- Delete product
+- Manage orders
+- Manage users
+- View messages
+
+---
+
+# 🛠 Technologies Used
+
+## Backend
+- Java Servlet
+- JSP (Java Server Pages)
+- JDBC
+- Maven
+
+## Frontend
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+## Database
+- MySQL
+
+## Server
+- Apache Tomcat 9 or 10
+
+## IDE
+- Eclipse IDE
+
+---
+
+# ⚙️ Prerequisites / Requirements
 
 Make sure the following software is installed:
 
-JDK 8
-Apache Tomcat 9 or 10
-Eclipse IDE (Enterprise Edition recommended)
-MySQL Server
-MySQL Workbench
-Maven
-Web Browser (Chrome / Edge)
-📂 Project Structure (Maven)
+- JDK 8
+- Apache Tomcat 9 or 10
+- Eclipse IDE (Enterprise Edition recommended)
+- MySQL Server
+- MySQL Workbench
+- Maven
+- Web Browser (Chrome / Edge)
+- 
 # 📂 Project Structure (Maven)
 
 ```
@@ -88,8 +101,18 @@ cart → stores cart items
 order → stores order details
 msg → stores contact messages
 
-Database structure:
 
+# 🗄 Database Structure
+
+Create database:
+
+```sql
+CREATE DATABASE plant_db;
+```
+
+Tables:
+
+```
 plant_db
 │
 ├── user
@@ -97,6 +120,7 @@ plant_db
 ├── cart
 ├── order
 └── msg
+```
 
 After creating database, run SQL queries to create tables or import tables using MySQL Workbench.
 
@@ -120,15 +144,42 @@ src/main/java/com/DB/DBConnect.java
 
 Update database name, username and password:
 
+## Step 3: Configure Database Connection
+
+Open file:
+
+src/main/java/com/DB/DBConnect.java
+
+Update database configuration:
+
+```java
 jdbc:mysql://localhost:3306/plant_db
 username = root
 password = yourpassword
-Step 4: Configure Tomcat Server
-Open Eclipse
-Go to Servers tab
-Add Apache Tomcat 9 or 10
-Right click project
-Run As → Run on Server
-Step 5: Run in Browser
+```
+
+---
+
+## Step 4: Configure Tomcat Server
+
+1. Open Eclipse IDE
+2. Go to **Servers** tab
+3. Click **No servers available → Click this link**
+4. Select **Apache Tomcat v9.0 or v10.0**
+5. Choose Tomcat installation folder
+6. Click **Finish**
+7. Right click project
+8. Select **Run As → Run on Server**
+9. Choose Tomcat server
+
+---
+
+## Step 5: Run in Browser
+
+Open browser and run:
+
+```
+http://localhost:8080/plant-project
+```
 http://localhost:8080/plant-project
 
